@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoubtsActivity">
+
+    <TextView
+        android:id="@+id/doubt_header"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Title"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:layout_below="@id/doubt_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="This is the body"
+        android:id="@+id/doubt_body"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_margin="20dp"
+        android:id="@+id/replies"
+        android:layout_below="@id/doubt_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_below="@id/replies"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        android:id="@+id/reply_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="reply"/>
+
+    <Button
+        android:id="@+id/reply_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/replies"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:text="Reply"/>
+
+
+</RelativeLayout>

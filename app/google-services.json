@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "64604208949",
+    "firebase_url": "https://tis-dashboard.firebaseio.com",
+    "project_id": "tis-dashboard",
+    "storage_bucket": "tis-dashboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64604208949:android:ff7fb6e545d7d433",
+        "android_client_info": {
+          "package_name": "com.apps.kunalfarmah.tisdashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64604208949-qff0npvmhudondoa1jibssk9ss1ch2bi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.kunalfarmah.tisdashboard",
+            "certificate_hash": "16dbd98ff40e0e810ca1a458d25b860c667a5132"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDANU6rXcfTl05RelM_6VPZ-yN-Fw_hfKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64604208949-160dkrloed24lj1rm0irk66raqeqr3tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
